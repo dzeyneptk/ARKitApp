@@ -13,6 +13,9 @@
 		59B8E6F024EBEB63007CD238 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59B8E6EE24EBEB63007CD238 /* Main.storyboard */; };
 		59B8E6F224EBEB68007CD238 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59B8E6F124EBEB68007CD238 /* Assets.xcassets */; };
 		59B8E6F524EBEB68007CD238 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59B8E6F324EBEB68007CD238 /* LaunchScreen.storyboard */; };
+		59B8E70224EC0E2D007CD238 /* Coni.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 59B8E6FF24EC0E2D007CD238 /* Coni.rcproject */; };
+		59B8E70324EC0E2D007CD238 /* Cube.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 59B8E70024EC0E2D007CD238 /* Cube.rcproject */; };
+		59B8E70424EC0E2D007CD238 /* Circle.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 59B8E70124EC0E2D007CD238 /* Circle.rcproject */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		59B8E6F124EBEB68007CD238 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		59B8E6F424EBEB68007CD238 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		59B8E6F624EBEB68007CD238 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59B8E6FF24EC0E2D007CD238 /* Coni.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Coni.rcproject; sourceTree = "<group>"; };
+		59B8E70024EC0E2D007CD238 /* Cube.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Cube.rcproject; sourceTree = "<group>"; };
+		59B8E70124EC0E2D007CD238 /* Circle.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Circle.rcproject; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,7 @@
 		59B8E6E724EBEB63007CD238 /* ARKitApp */ = {
 			isa = PBXGroup;
 			children = (
+				59B8E6FC24EC0C2B007CD238 /* Models */,
 				59B8E6E824EBEB63007CD238 /* AppDelegate.swift */,
 				59B8E6EA24EBEB63007CD238 /* ViewController.swift */,
 				59B8E6EC24EBEB63007CD238 /* Experience.rcproject */,
@@ -65,6 +72,16 @@
 				59B8E6F624EBEB68007CD238 /* Info.plist */,
 			);
 			path = ARKitApp;
+			sourceTree = "<group>";
+		};
+		59B8E6FC24EC0C2B007CD238 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				59B8E70124EC0E2D007CD238 /* Circle.rcproject */,
+				59B8E6FF24EC0E2D007CD238 /* Coni.rcproject */,
+				59B8E70024EC0E2D007CD238 /* Cube.rcproject */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +155,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59B8E70424EC0E2D007CD238 /* Circle.rcproject in Sources */,
+				59B8E70324EC0E2D007CD238 /* Cube.rcproject in Sources */,
 				59B8E6EB24EBEB63007CD238 /* ViewController.swift in Sources */,
+				59B8E70224EC0E2D007CD238 /* Coni.rcproject in Sources */,
 				59B8E6E924EBEB63007CD238 /* AppDelegate.swift in Sources */,
 				59B8E6ED24EBEB63007CD238 /* Experience.rcproject in Sources */,
 			);
@@ -287,6 +307,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F966A2BH3H;
 				INFOPLIST_FILE = ARKitApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -305,6 +326,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F966A2BH3H;
 				INFOPLIST_FILE = ARKitApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
