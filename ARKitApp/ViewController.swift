@@ -32,6 +32,7 @@ class ViewController: UIViewController {
     
     private func placeObject(named entityName: String, for anchor: ARAnchor) {
         let entity = try! ModelEntity.loadModel(named: entityName)
+
         entity.generateCollisionShapes(recursive: true)
         arView.installGestures([.rotation, .translation ], for: entity)
         let anchorEntity = AnchorEntity(anchor: anchor)
@@ -44,7 +45,7 @@ class ViewController: UIViewController {
         let location = recognizer.location(in: arView)
         let results = arView.raycast(from: location, allowing: .estimatedPlane, alignment: .horizontal)
         if let firstResult = results.first {
-            let anchor = ARAnchor(name: "Circle", transform: firstResult.worldTransform)
+            let anchor = ARAnchor(name: "toy_biplane", transform: firstResult.worldTransform)
             arView.session.add(anchor: anchor)
         } else { print("Object placement failed") }
     }
@@ -54,7 +55,7 @@ class ViewController: UIViewController {
 extension ViewController: ARSessionDelegate {
     func session(_ session: ARSession, didAdd anchors: [ARAnchor]) {
         for anchor in anchors {
-            if let anchorName = anchor.name, anchorName == "Circle" {
+            if let anchorName = anchor.name, anchorName == "toy_biplane" {
                 placeObject(named: anchorName, for: anchor )
             }
         }

@@ -3,33 +3,31 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		599AC18924ED1F6A009CAB2D /* toy_biplane.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 599AC18824ED1F6A009CAB2D /* toy_biplane.usdz */; };
 		59B8E6E924EBEB63007CD238 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59B8E6E824EBEB63007CD238 /* AppDelegate.swift */; };
 		59B8E6EB24EBEB63007CD238 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59B8E6EA24EBEB63007CD238 /* ViewController.swift */; };
-		59B8E6ED24EBEB63007CD238 /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 59B8E6EC24EBEB63007CD238 /* Experience.rcproject */; };
 		59B8E6F024EBEB63007CD238 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59B8E6EE24EBEB63007CD238 /* Main.storyboard */; };
 		59B8E6F224EBEB68007CD238 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59B8E6F124EBEB68007CD238 /* Assets.xcassets */; };
 		59B8E6F524EBEB68007CD238 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59B8E6F324EBEB68007CD238 /* LaunchScreen.storyboard */; };
-		59B8E70224EC0E2D007CD238 /* Coni.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 59B8E6FF24EC0E2D007CD238 /* Coni.rcproject */; };
-		59B8E70324EC0E2D007CD238 /* Cube.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 59B8E70024EC0E2D007CD238 /* Cube.rcproject */; };
-		59B8E70424EC0E2D007CD238 /* Circle.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 59B8E70124EC0E2D007CD238 /* Circle.rcproject */; };
+		ADC39C08713826B13DD63B44 /* Pods_ARKitApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C4E8582C4B99BCEFD9FBA2E /* Pods_ARKitApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		08C61BE54900E12C8ACF02C2 /* Pods-ARKitApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARKitApp.release.xcconfig"; path = "Target Support Files/Pods-ARKitApp/Pods-ARKitApp.release.xcconfig"; sourceTree = "<group>"; };
+		599AC18824ED1F6A009CAB2D /* toy_biplane.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = toy_biplane.usdz; sourceTree = "<group>"; };
 		59B8E6E524EBEB63007CD238 /* ARKitApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARKitApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		59B8E6E824EBEB63007CD238 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		59B8E6EA24EBEB63007CD238 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		59B8E6EC24EBEB63007CD238 /* Experience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Experience.rcproject; sourceTree = "<group>"; };
 		59B8E6EF24EBEB63007CD238 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		59B8E6F124EBEB68007CD238 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		59B8E6F424EBEB68007CD238 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		59B8E6F624EBEB68007CD238 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		59B8E6FF24EC0E2D007CD238 /* Coni.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Coni.rcproject; sourceTree = "<group>"; };
-		59B8E70024EC0E2D007CD238 /* Cube.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Cube.rcproject; sourceTree = "<group>"; };
-		59B8E70124EC0E2D007CD238 /* Circle.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Circle.rcproject; sourceTree = "<group>"; };
+		63E7CC0664BA34111B574C67 /* Pods-ARKitApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARKitApp.debug.xcconfig"; path = "Target Support Files/Pods-ARKitApp/Pods-ARKitApp.debug.xcconfig"; sourceTree = "<group>"; };
+		6C4E8582C4B99BCEFD9FBA2E /* Pods_ARKitApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ARKitApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,17 +35,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADC39C08713826B13DD63B44 /* Pods_ARKitApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1A4C7781E8955B63DB494A33 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				63E7CC0664BA34111B574C67 /* Pods-ARKitApp.debug.xcconfig */,
+				08C61BE54900E12C8ACF02C2 /* Pods-ARKitApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		59B8E6DC24EBEB63007CD238 = {
 			isa = PBXGroup;
 			children = (
 				59B8E6E724EBEB63007CD238 /* ARKitApp */,
 				59B8E6E624EBEB63007CD238 /* Products */,
+				1A4C7781E8955B63DB494A33 /* Pods */,
+				60551B975E4B888A88916C29 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,10 +72,9 @@
 		59B8E6E724EBEB63007CD238 /* ARKitApp */ = {
 			isa = PBXGroup;
 			children = (
-				59B8E6FC24EC0C2B007CD238 /* Models */,
 				59B8E6E824EBEB63007CD238 /* AppDelegate.swift */,
 				59B8E6EA24EBEB63007CD238 /* ViewController.swift */,
-				59B8E6EC24EBEB63007CD238 /* Experience.rcproject */,
+				599AC18824ED1F6A009CAB2D /* toy_biplane.usdz */,
 				59B8E6EE24EBEB63007CD238 /* Main.storyboard */,
 				59B8E6F124EBEB68007CD238 /* Assets.xcassets */,
 				59B8E6F324EBEB68007CD238 /* LaunchScreen.storyboard */,
@@ -74,14 +83,12 @@
 			path = ARKitApp;
 			sourceTree = "<group>";
 		};
-		59B8E6FC24EC0C2B007CD238 /* Models */ = {
+		60551B975E4B888A88916C29 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				59B8E70124EC0E2D007CD238 /* Circle.rcproject */,
-				59B8E6FF24EC0E2D007CD238 /* Coni.rcproject */,
-				59B8E70024EC0E2D007CD238 /* Cube.rcproject */,
+				6C4E8582C4B99BCEFD9FBA2E /* Pods_ARKitApp.framework */,
 			);
-			name = Models;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -91,9 +98,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 59B8E6F924EBEB68007CD238 /* Build configuration list for PBXNativeTarget "ARKitApp" */;
 			buildPhases = (
+				BF924E07F5B74B7EF99F0283 /* [CP] Check Pods Manifest.lock */,
 				59B8E6E124EBEB63007CD238 /* Sources */,
 				59B8E6E224EBEB63007CD238 /* Frameworks */,
 				59B8E6E324EBEB63007CD238 /* Resources */,
+				4FA93D2FB143D19F7AEB903A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -144,23 +153,62 @@
 			files = (
 				59B8E6F524EBEB68007CD238 /* LaunchScreen.storyboard in Resources */,
 				59B8E6F224EBEB68007CD238 /* Assets.xcassets in Resources */,
+				599AC18924ED1F6A009CAB2D /* toy_biplane.usdz in Resources */,
 				59B8E6F024EBEB63007CD238 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4FA93D2FB143D19F7AEB903A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ARKitApp/Pods-ARKitApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ARKitApp/Pods-ARKitApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ARKitApp/Pods-ARKitApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BF924E07F5B74B7EF99F0283 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ARKitApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		59B8E6E124EBEB63007CD238 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				59B8E70424EC0E2D007CD238 /* Circle.rcproject in Sources */,
-				59B8E70324EC0E2D007CD238 /* Cube.rcproject in Sources */,
 				59B8E6EB24EBEB63007CD238 /* ViewController.swift in Sources */,
-				59B8E70224EC0E2D007CD238 /* Coni.rcproject in Sources */,
 				59B8E6E924EBEB63007CD238 /* AppDelegate.swift in Sources */,
-				59B8E6ED24EBEB63007CD238 /* Experience.rcproject in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,6 +350,7 @@
 		};
 		59B8E6FA24EBEB68007CD238 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63E7CC0664BA34111B574C67 /* Pods-ARKitApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -321,6 +370,7 @@
 		};
 		59B8E6FB24EBEB68007CD238 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08C61BE54900E12C8ACF02C2 /* Pods-ARKitApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
